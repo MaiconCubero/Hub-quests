@@ -85,17 +85,8 @@ input:focus,textarea:focus,select:focus{outline:none}
 <aside class="fixed left-0 top-16 h-[calc(100vh-64px)] z-40 flex flex-col py-8 w-64 bg-[#0e0e0e] border-r border-[#a28c88]/20">
   <div class="px-6 mb-8">
     <div class="flex items-center gap-3 mb-4">
-      <div class="w-10 h-10 bg-[#1a1410] border border-[#c9a84c]/30 flex items-center justify-center flex-shrink-0 overflow-hidden">
-        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" class="w-9 h-9">
-          <circle cx="20" cy="20" r="18" fill="#1a1410" stroke="#c9a84c" stroke-width="1" opacity="0.7"/>
-          <polygon points="14,7 11,17 17,15" fill="#c9a84c" opacity="0.9"/>
-          <polygon points="26,7 29,17 23,15" fill="#c9a84c" opacity="0.9"/>
-          <path d="M11,17 C9,22 11,29 20,31 C29,29 31,22 29,17 C25,13 15,13 11,17Z" fill="#c9a84c" opacity="0.85"/>
-          <ellipse cx="20" cy="23" rx="5" ry="3" fill="#8a6a28" opacity="0.6"/>
-          <circle cx="16" cy="19" r="2" fill="#1a1410"/>
-          <circle cx="24" cy="19" r="2" fill="#1a1410"/>
-          <line x1="14" y1="16" x2="17" y2="22" stroke="#1a1410" stroke-width="1"/>
-        </svg>
+      <div class="w-10 h-10 border border-[#3a8fd4]/30 flex items-center justify-center flex-shrink-0 overflow-hidden bg-black">
+        <img src="wolf.png" alt="Wolf Sigil" style="width:38px;height:38px;object-fit:contain;filter:drop-shadow(0 0 4px rgba(66,153,225,0.6)) brightness(1.1);"/>
       </div>
       <div>
         <div class="text-[#a28c88] text-sm font-black tracking-widest font-headline">WITCHER</div>
@@ -169,20 +160,12 @@ input:focus,textarea:focus,select:focus{outline:none}
 
       <div class="relative w-[400px] h-[400px] flex items-center justify-center">
         <!-- Wolf Core -->
-        <div class="z-20 w-28 h-28 bg-surface-container-highest border-2 border-outline/40 flex items-center justify-center relative shadow-[0_0_40px_rgba(255,180,168,0.12)]">
-          <div class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent"></div>
-          <svg viewBox="0 0 80 80" class="w-20 h-20" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="40" cy="40" r="36" fill="#0e0e0e" stroke="#c9a84c" stroke-width="1.5" opacity="0.6"/>
-            <polygon points="26,10 20,26 32,23" fill="#c9a84c" opacity="0.9"/>
-            <polygon points="54,10 60,26 48,23" fill="#c9a84c" opacity="0.9"/>
-            <path d="M20,26 C14,36 16,52 40,56 C64,52 66,36 60,26 C52,20 28,20 20,26Z" fill="#c9a84c" opacity="0.82"/>
-            <ellipse cx="40" cy="44" rx="9" ry="6" fill="#8a6a28" opacity="0.55"/>
-            <circle cx="32" cy="36" r="3.5" fill="#1a1410"/>
-            <circle cx="48" cy="36" r="3.5" fill="#1a1410"/>
-            <circle cx="32" cy="36" r="1.2" fill="#c9a84c" opacity="0.35"/>
-            <circle cx="48" cy="36" r="1.2" fill="#c9a84c" opacity="0.35"/>
-            <line x1="26" y1="30" x2="31" y2="42" stroke="#1a1410" stroke-width="1.2"/>
-          </svg>
+        <div class="z-20 relative flex items-center justify-center" style="width:160px;height:160px;">
+          <img
+            src="wolf.png"
+            alt="Wolf School Sigil"
+            style="width:160px;height:160px;object-fit:contain;filter:drop-shadow(0 0 18px rgba(66,153,225,0.55)) drop-shadow(0 0 36px rgba(66,153,225,0.25)) brightness(1.08) contrast(1.05);"
+          />
           <div class="absolute -bottom-5 text-[7px] font-mono text-outline/30 tracking-widest whitespace-nowrap">WOLF_CORE_v1</div>
         </div>
 
